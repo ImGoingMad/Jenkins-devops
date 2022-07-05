@@ -5,4 +5,7 @@ node {
 	stage('Test') {
 		echo "Test"
 	}
+	stage('Deployment'){
+		echo "Deployed Successfully"
+	}
 }

@@ -8,4 +8,15 @@ pipeline {
 			}
 		}
 	}
+	post {
+		always {
+			echo 'Sugamano?'
+		}
+		success {
+			echo 'Good job ma boi'
+		}
+		fail {
+			echo 'Boi you suck'
+		}
+	}
 }
